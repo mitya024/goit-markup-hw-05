@@ -141,12 +141,12 @@ body {
   letter-spacing: 0.02em;
   text-decoration: var(--main-text-color);
   color: inherit;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hdr-header .cap:hover,
 .hdr-header .cap:focus,
 .hdr-header .cap:active {
   color: var(--main-focus-text-blue);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* меню */
@@ -157,12 +157,12 @@ body {
   letter-spacing: 0.02em;
   text-decoration: var(--main-text-color);
   color: inherit;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hdr .cap:hover,
 .hdr .cap:focus,
 .hdr .cap:active {
   color: var(--main-focus-text-blue);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* телефон та мейл в header і footer */
 .contact-adress {
@@ -174,11 +174,11 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact-adress:hover,
 .contact-adress:focus {
   color: var(--main-focus-text-blue);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hdr-contact .contact {
@@ -188,12 +188,12 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--color-contact);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hdr-contact .contact:hover,
 .hdr-contact .contact:focus,
 .hdr-contact .contact:active {
   color: var(--main-focus-text-blue);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hdr .contact {
@@ -204,12 +204,12 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--color-contact);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hdr .contact:hover,
 .hdr .contact:focus,
 .hdr .contact:active {
   color: var(--main-focus-text-blue);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contacts-list .contact {
   display: flex;
@@ -327,12 +327,12 @@ body {
 }
 .examples-list {
   border-bottom: 1px solid rgba(238, 238, 238, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .examples-list-link:hover,
 .examples-list-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .examples-list-link:hover .examples-list-cover-text {
   transform: translateY(0);
@@ -457,18 +457,18 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .work-team-soclink-icon {
   fill: var(--icons-main);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .work-team-soclink:hover,
 .work-team-soclink:focus {
   background-color: var(--main-focus-text-blue);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .work-team-soclink:hover .work-team-soclink-icon {
   fill: var(--main-white-color);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .regular-customers {
   display: flex;
@@ -477,12 +477,10 @@ body {
 .customers-list-link:hover,
 .customers-list-link:focus {
   border-color: var(--main-focus-text-blue);
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customers-list-link:hover .custumers-list-icon,
 .customers-list-link:focus .custumers-list-icon {
   fill: var(--main-focus-text-blue);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customers-list-link {
   display: flex;
@@ -492,9 +490,11 @@ body {
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .custumers-list-icon {
   fill: var(--icons-main);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .regular-customers-tittle {
   margin-top: 0px;
@@ -555,16 +555,15 @@ body {
 }
 .contact-soclink-icon {
   fill: var(--main-white-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .work-footer-soclink:hover .contact-soclink-icon {
   fill: var(--main-white-color);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .work-footer-soclink:hover,
 .work-footer-soclink:focus {
   background-color: var(--main-focus-text-blue);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .work-footer-soclink {
   width: 100%;
@@ -574,6 +573,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .work-footer-soc-item:not(:last-child) {
   margin-right: 10px;
@@ -594,6 +594,8 @@ body {
   padding: 6px 22px;
   width: auto;
   text-align: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn:hover,
 .btn:focus,
@@ -604,8 +606,6 @@ body {
   font-family: inherit;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .menu-btn {
   display: flex;
